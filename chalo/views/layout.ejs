@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task Manager Layout</title>
+      <script src="http://127.0.0.1:8080/chalo/chalo/node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="http://127.0.0.1:8080/chalo/chalo/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <link rel='stylesheet' href='http://127.0.0.1:8080/chalo/chalo/public/stylesheets/bootstrap.min.css' />
+  </head>
+  <body bgcolor="gray">
+	<table bgcolor='white' width='95%'>
+		<tr><td> <% include header %> </td></tr>
+		<tr><td height='300' valign='top'> <%- body %> </td></tr>
+		<tr><td> <% include footer %> </td> </tr>
+	</table>
+  </body>
+</html>
